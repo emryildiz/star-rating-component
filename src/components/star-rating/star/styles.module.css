@@ -1,0 +1,12 @@
+.star{
+    fill:var(--empty-star-color);
+}
+
+.starWrapper{
+    padding:16px;
+    cursor: pointer;
+}
+
+.active{
+    fill:var(--active-star-color);
+}

@@ -1,0 +1,26 @@
+.starRating{
+    border-radius: 16px;
+    background-color: var(--star-card-color);
+    display: flex;
+    flex-direction:  column;
+    justify-content: center;
+    text-align: center;
+    padding:64px;
+    gap:32px;
+}
+
+.starRating h2{
+    font-family: 'MerriWeather', sans-serif;
+    font-size:var(--title-font-size);
+}
+
+.starRating p{
+    font-family: 'poppins', sans-serif;
+    font-size: var(--text-font-size);
+    width: 80ch;
+}
+
+.stars{
+    display: flex;
+    justify-content: center;
+}
